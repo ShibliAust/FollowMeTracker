@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".activities.logInActivity"
+    android:background="@drawable/back6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="FollowMeTracker"
+        android:id="@+id/logo"
+        android:textSize="32dp"
+        android:textColor="#0f0303"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserName_editText"
+        android:hint="Username"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="30dp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/Password_editText"
+        android:hint="Password"
+        android:layout_below="@+id/UserName_editText"
+        android:layout_alignParentStart="true"
+        android:typeface="monospace" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign in"
+        android:id="@+id/LogIn_Button"
+        android:layout_below="@+id/Password_editText"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:typeface="monospace"
+        android:textColor="#320202"
+        android:textSize="16dp"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="New User ?"
+        android:id="@+id/NewUser_textView"
+        android:textSize="25dp"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/Register_button"
+        android:layout_alignTop="@+id/NewUser_textView"
+        android:layout_alignParentEnd="true"
+        android:typeface="monospace"
+        android:textSize="16dp"
+        android:textColor="#320202"
+        android:clickable="true"
+        />
+
+
+</RelativeLayout>

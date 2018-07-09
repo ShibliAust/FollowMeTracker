@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back6"
+    >
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Name_editText"
+        android:layout_marginTop="54dp"
+        android:layout_alignParentStart="true"
+        android:hint="Name"
+        android:typeface="monospace" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Email_editText"
+        android:layout_below="@+id/Name_editText"
+        android:layout_alignParentStart="true"
+        android:hint="Email"
+        android:layout_marginTop="15dp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserName_editText"
+        android:layout_below="@+id/Email_editText"
+        android:layout_alignParentStart="true"
+        android:hint="Username"
+        android:layout_marginTop="15dp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pass_editText"
+        android:layout_below="@+id/UserName_editText"
+        android:layout_alignParentStart="true"
+        android:hint="Password"
+        android:layout_marginTop="15dp"
+        android:typeface="monospace"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmPass_editText"
+        android:layout_below="@+id/Pass_editText"
+        android:layout_alignParentStart="true"
+        android:hint="Confirm Password"
+        android:layout_marginTop="15dp"
+        android:typeface="monospace"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/signup_button"
+        android:layout_below="@+id/confirmPass_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:typeface="monospace"
+        android:width="70dp"
+        android:clickable="true"
+        android:textSize="15dp"
+        android:textColor="#320202" />
+
+
+</RelativeLayout>
